@@ -42,7 +42,7 @@ Agile
 	- Approach to SDLC based on iteractive and incremental development with a focus on customer satisfaction and rapid delivery of software products
 		- break down the product/software into small incremental steps provided in iterations
 	- Cross functional team
-	- philosophy/mindset
+	- philosophy/mindset - https://agilemanifesto.org/
 		- Individuals and interactions over processes and tools
 		- Working software over comprehensive documentation
 		- Customer collaboration over contract negotiation
