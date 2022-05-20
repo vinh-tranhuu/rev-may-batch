@@ -1,0 +1,37 @@
+EXERCISES
+1. countdown: make sure that argument is positive,
+	then count down from that number to 0. if
+	argument is not positive, it should print
+	"input must be positive or 0."
+	public void countdown(int startValue) { }
+2. greeting: takes in a name, should print a greeting
+	using the name.
+	public void greeting(String name) { }
+3. acronym: takes in a phrase with multiple words.
+	should convert the phrase into an acronym
+	and return the acronym. for example, "Three
+	Letter Acronym" should return "TLA"
+	public String acronym(String phrase) { }
+4. isPangram: takes in a phrase and should return
+	true if the phrase is a pangram (includes
+	all 26 letters of the alphabet at least
+	once). for example, "the quick brown fox
+	jumps over the lazy dog" is a pangram.
+	public boolean isPangram(String phrase) { }
+5. fizzbuzz: takes in a max value, should print from
+	1 to that value excluding numbers divisible
+	by 3 or 5. numbers divisible by 3 should be
+	replaced with "fizz", numbers divisible by
+	5 should be replaced with "buzz", and
+	numbers divisible by both should be replaced
+	with "fizzbuzz".
+	public void fizzbuzz(int maxValue) { }
+
+DRIVER/TEST VALUES
+1: 25, -25
+2: "Sierra", "Someone"
+3: "Three Letter Acronym", "Hello", "graphics
+	interchange format"
+4: "hello", "the quick brown fox jumps over
+	the lazy dog", "ABcdEFgHIjkLMnopQRsTUvWxYZ"
+5: 25

@@ -1,0 +1,54 @@
+EXERCISES
+1. reverseString: takes in a String, must reverse
+	the String without using StringBuilder or
+	StringBuffer and return the reversed String
+	public String reverseString(String string) { }
+2. cleanPhoneNumber: takes in a phone number and must
+	format it such that the result would be
+	5555555555 for the following inputs:
+	+1 (555) 555-5555, 555-555-5555,
+	1 555 555 5555, 555.555.5555 and return the
+	formatted phone number
+	public String cleanPhoneNumber(String phoneNo) { }
+3. wordCount: takes in a phrase and must return the
+	count of each word as a Map. for example, the
+	phrase "what goes around comes around" would
+	return a map of the following key-value pairs:
+	what - 1
+	goes - 1
+	around - 2
+	comes - 1
+	public Map<String,Integer> wordCount(String phrase) { }
+4. caesarCipher: takes in a word or phrase and an
+	integer key. must turn the word/phrase into a
+	caesar/rotational cipher based on the key by
+	changing each letter into the letter that is
+	that many letters forward. for example, "cat"
+	with a key of 5 will return "hfy". spaces
+	and punctuation should be unchanged.
+	public String caesarCipher(String phrase, int key) { }
+5. isLuhnValid: takes in a String of numbers, should
+	return whether it is Luhn valid. only numbers
+	and spaces should be passed in, spaces should
+	be removed. numbers with 1 digit or less are
+	not valid. first, double every second digit
+	starting from the right. if the double is
+	greater than 9, subtract 9 from it. second,
+	get the sum of all of the digits. if it is
+	evenly divisible by 10, it is valid.
+	public boolean isLuhnValid(String string) { }
+
+DRIVER/TEST VALUES
+1. "hello world", "stanley yelnats"
+2. "+1 123 456 7890", "222.222.2222",
+	"+1 (555) 867-5309"
+3. "olly olly oxen free", "what goes
+	AROUND comes around", "i can't
+	ppp understand ppp your accent",
+	"a birthday gift on my birthday
+	to my birthday party on my
+	birthday with a birthday gift"
+4. "cat", 5, "hello world", 26
+5. "4359 1488 0343 6467" (true),
+	"8273 1232 7352 0569" (false),
+	"046a 454 286" (false)
