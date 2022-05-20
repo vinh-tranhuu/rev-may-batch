@@ -1,0 +1,49 @@
+SDLC
+	- Software Development Life Cycle
+		- process planning, creating, testing, and displaying an information system
+	- General steps/phases
+		- Requirement phase
+			- evaluate the current system/idenditfy deficiencies
+			- meeting with clients/share holders to elicit requirements
+				- usually done by Business Analysts (BAs)
+		- Analysis phase
+			- Requirements are to be defined
+				- particular deficiencies in the system and the proposal is made
+			- Senior Devs/Architects working with the BAs
+		- Design phase
+			- Proposed system is designed and product features are planned out
+			- no coding has happened yet
+		- Development phase
+			- software is built
+				- code is written
+		- Testing phase
+			- Software is tested to ensured functionality
+			- Sometimes a separate testing team is leveraged
+		- Deployment/Maintenance phase(s)
+			- product is delivered/made avalaible to customers/clients
+			- maintenance is kept up
+				- bugs/tickers are hanled
+				- the application is up and running
+
+
+Waterfall model
+	- Traditional model, linear/sequential
+	- each phase must be completed before going to the next phase(no ovelapping)
+	- Advantages
+		- well defined steps
+		- familiarity
+		- mature market
+		- smaller projects
+	- Disadvantages
+		- takes too long/not best use of time
+		- can't accomodate for customer feedback
+
+Agile
+	- Approach to SDLC based on iteractive and incremental development with a focus on customer satisfaction and rapid delivery of software products
+		- break down the product/software into small incremental steps provided in iterations
+	- Cross functional team
+	- philosophy/mindset
+		- Individuals and interactions over processes and tools
+		- Working software over comprehensive documentation
+		- Customer collaboration over contract negotiation
+		- Responding to change over following a plan
